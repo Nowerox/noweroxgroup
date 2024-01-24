@@ -10,6 +10,12 @@ body {
 }
 
 /* Style for SVG paths */
+svg {
+    width: 100%; /* Make the SVG element fill the entire width of its container */
+    height: auto; /* Maintain the aspect ratio */
+    transform-origin: center center; /* Set the transform origin to the center */
+}
+
 svg path {
     fill: #00394f;
     stroke: #eee;
@@ -46,6 +52,10 @@ svg path:hover {
     /* Adjust styles for smaller screens here */
     body {
         font-size: 14px; /* Example: Decrease the font size for better readability on small screens */
+    }
+
+    svg {
+        transform: scale(1.5); /* Example: Increase the scale to zoom in on the map for better visibility on small screens */
     }
 
     svg path {
