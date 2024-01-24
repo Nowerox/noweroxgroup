@@ -47,20 +47,18 @@ svg path:hover {
     }
 }
 
-/* Mobile phone view styles */
-@media only screen and (max-width: 767px) {
-    /* Adjust styles for smaller screens here */
-    body {
-        font-size: 14px; /* Example: Decrease the font size for better readability on small screens */
-    }
+/* Your regular styles go here */
 
-    svg {
-        transform: scale(3.5); /* Example: Increase the scale to zoom in on the map for better visibility on small screens */
-    }
-
-    svg path {
-        stroke-width: 3.15; /* Example: Decrease the stroke width for better visibility on small screens */
-    }
-
-    /* Adjust other styles as needed */
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    /* Styles for screens with a maximum width of 600px */
 }
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for screens with a width between 601px and 1024px */
+}
+
+@media screen and (min-width: 1025px) {
+    /* Styles for screens with a minimum width of 1025px */
+}
+
