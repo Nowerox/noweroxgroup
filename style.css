@@ -55,11 +55,11 @@ svg path:hover {
     }
 
     svg {
-        transform: scale(1.5); /* Example: Increase the scale to zoom in on the map for better visibility on small screens */
+        transform: scale(3.5); /* Example: Increase the scale to zoom in on the map for better visibility on small screens */
     }
 
     svg path {
-        stroke-width: 0.15; /* Example: Decrease the stroke width for better visibility on small screens */
+        stroke-width: 3.15; /* Example: Decrease the stroke width for better visibility on small screens */
     }
 
     /* Adjust other styles as needed */
